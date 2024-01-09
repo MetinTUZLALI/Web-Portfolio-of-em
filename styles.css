@@ -1,0 +1,231 @@
+body, html {
+    height: 99%;
+    margin: 0px;
+    font-family: cursive;
+    background-image: url(img/bg.gif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+header {
+
+    color: yellowgreen;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+
+}
+
+
+.header-left {
+    display: flex;
+  align-items: center;
+}
+
+.header-left img {
+    width: 100px;
+    margin-right: 20px;
+    clip-path: circle();
+}
+
+nav.header-right a {
+    color: #b944eb;
+    text-decoration: none;
+    padding: 0.5em;
+    margin: 0 10px;    
+    border: 4px groove #ccc;
+    border-radius: 4px;
+    border-style: inset;
+
+}
+
+.nav_button:hover {
+    background-color: green;
+}
+
+.nav_button2:hover {
+    background-color: red;
+}
+
+main {
+    display: flex;
+    
+    height: 80%;
+
+}
+
+h1{
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    color: wheat;
+}
+.body-left {
+    flex: 1;
+    padding: 20px;
+}
+
+.body-left img {
+    width:75%;
+    height: auto;
+    opacity: 0.2;
+    clip-path: circle()
+}
+
+.body-right {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+.body-right h1{
+    color: wheat;
+    font-family: cursive;
+}
+.body-right-dw{
+    margin-top: 5%;
+}
+.body-right-dw td{
+    padding: 0 15px;
+    padding-top: 1%;
+    
+}
+
+.body-right-dw th{
+    font-size:large;
+    color: wheat;
+    padding-top: 1%;
+    }
+
+.body-right-dw2{
+    margin-top: 100px;
+}
+footer {
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.2), rgba(0, 0, 255, 0.2));
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-lr img {
+    width: 40px; 
+    margin-right: 20px;
+    clip-path: circle();
+    margin-bottom: -15px;
+   
+}
+
+nav.footer-center a {
+    color: white;
+    text-decoration: none;    
+    margin: 15px;    
+}
+/*about page start*/
+section{
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    color: blue;
+    height: 76%;
+
+}
+
+
+
+  .cell {
+    width: 10%;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.background-div{
+    width: 640px;
+    height: 640px;
+    background-color: red;
+    position: relative;
+    margin: auto;
+    opacity: 0.2;
+}
+.yatay-div{
+    width: 400px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 260px;
+    opacity: 0.5;
+}
+
+.dikey-div{
+    width: 120px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 120px;
+    opacity: 0.5;
+}
+/*about page end*/
+
+/*conctact start*/
+
+
+.contact {
+    margin-left: 35vh;
+    width: 400px;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius:15%;
+    color: #1100ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+   }
+   
+   input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    resize: vertical;
+    
+   }
+   
+   input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+   }
+   
+   input[type=submit]:hover {
+    opacity:1;
+   }
+
+.contact-form-rw{
+    font-family: sans-serif;
+    margin-left: 100px;
+    color: aqua;
+}
+/*contact end*/
+
